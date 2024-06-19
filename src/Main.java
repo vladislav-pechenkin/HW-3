@@ -8,7 +8,7 @@ public class Main {
         System.out.println ("Значение переменной b с типом short равно " + b);
         int c = 2147483646;
         System.out.println ("Значение переменной c с типом int равно " + c);
-        long d = 859152555;
+        long d = 859152555651919811L;
         System.out.println ("Значение переменной d с типом long равно " + d);
         float e = 3.75f;
         System.out.println ("Значение переменной e с типом float равно " + e);
@@ -42,5 +42,21 @@ public class Main {
         int student = totalSheetsOfPaper / totalStudents;
         System.out.println ("На каждого ученика рассчитано " + student + " листов бумаги");
 
+        System.out.println("Задача 4");
+
+        byte bottles = 16;
+        byte minute = 2;
+        byte time1 = 20;
+        int result1 = (time1 / minute) * bottles;
+        System.out.println("За " + time1 +  " минут машина произвела " + result1 + " штук бутылок");
+        short time2 = 1440;
+        int result2 = (time2 / minute) * bottles;
+        System.out.println("За " + time2 +  " минут машина произвела " + result2 + " штук бутылок");
+        short time3 = 4320;
+        int result3 = (time3 / minute) * bottles;
+        System.out.println("За " + time3 +  " минут машина произвела " + result3 + " штук бутылок");
+        int time4 = 43800;
+        int result4 = (time4 / minute) * bottles;
+        System.out.println("За " + time4 +  " минут машина произвела " + result4 + " штук бутылок");
     }
 }
