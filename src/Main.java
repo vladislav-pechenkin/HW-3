@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
+
         byte a = 126;
         System.out.println ("Значение переменной a с типом byte равно " + a);
         short b = 32766;
@@ -13,5 +14,23 @@ public class Main {
         System.out.println ("Значение переменной e с типом float равно " + e);
         double f =1.889165165194;
         System.out.println ("Значение переменной f с типом double равно " + f);
+
+        System.out.println("Задача 2");
+
+        byte umber1 = 67;
+        System.out.println ("Значение переменной umber1 с типом byte равно " + umber1);
+        short umber2 = 569;
+        System.out.println ("Значение переменной umber2 с типом short равно " + umber2);
+        short umber3 = 27897;
+        System.out.println ("Значение переменной umber3 с типом short равно " + umber3);
+        long umber4 = 987678965549L;
+        System.out.println ("Значение переменной umber4 с типом long равно " + umber4);
+        float umber5 = 27.12f;
+        System.out.println ("Значение переменной umber5 с типом float равно " + umber5);
+        float umber6 = 2.786f;
+        System.out.println ("Значение переменной umber6 с типом float равно " + umber6);
+        short umber7 = -159;
+        System.out.println ("Значение переменной umber7 с типом short равно " + umber7);
+
     }
 }
