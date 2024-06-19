@@ -32,5 +32,15 @@ public class Main {
         short umber7 = -159;
         System.out.println ("Значение переменной umber7 с типом short равно " + umber7);
 
+        System.out.println("Задача 3");
+
+        byte lyudmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte catherineAndreyevna = 30;
+        short totalSheetsOfPaper = 480;
+        int totalStudents = (lyudmilaPavlovna + annaSergeevna + catherineAndreyevna);
+        int student = totalSheetsOfPaper / totalStudents;
+        System.out.println ("На каждого ученика рассчитано " + student + " листов бумаги");
+
     }
 }
