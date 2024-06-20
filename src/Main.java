@@ -64,10 +64,27 @@ public class Main {
         byte paintCans = 120;
         byte whitePaint = 2;
         byte brownPaint = 4;
-        int oneСlass = whitePaint + brownPaint;
-        int totalClasses = paintCans / oneСlass;
+        int oneClass = whitePaint + brownPaint;
+        int totalClasses = paintCans / oneClass;
         int totalWhitePaint = totalClasses * whitePaint;
         int totalBrownPaint = totalClasses * brownPaint;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
+
+        System.out.println("Задача 6");
+
+        short bananas =5;
+        bananas *=80;
+        float milk =2f;
+        milk *=105;
+        short iceCreamSundae =2;
+        iceCreamSundae *=100;
+        short rawEggs =4;
+        rawEggs *=70;
+        float totalWeightProducts = bananas + milk + iceCreamSundae + rawEggs;
+        float kilogram = (totalWeightProducts/ 1000f);
+        System.out.println("Вес спортзавтрака составляет " + totalWeightProducts + " граммов, это - " + kilogram + " кг!");
+
+
+
     }
 }
