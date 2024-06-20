@@ -84,7 +84,18 @@ public class Main {
         float kilogram = (totalWeightProducts/ 1000f);
         System.out.println("Вес спортзавтрака составляет " + totalWeightProducts + " граммов, это - " + kilogram + " кг!");
 
+        System.out.println("Задача 7");
 
+        short needToReset = 7;
+        needToReset *= 1000;
+        short gram1 = 250;
+        short gram2 = 500;
+        int days1 = needToReset / gram1;
+        int days2 = needToReset / gram2;
+        int averageNumber = (days1 + days2)/2;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, у него уйдет " + days1  + " дней.");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, у него уйдет " + days2  + " дней.");
+        System.out.println("Чтобы добиться результата похудения, спортсмену потребуется в среднем " + averageNumber + " день.");
 
     }
 }
