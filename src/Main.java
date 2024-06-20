@@ -58,5 +58,16 @@ public class Main {
         int time4 = 43800;
         int result4 = (time4 / minute) * bottles;
         System.out.println("За " + time4 +  " минут машина произвела " + result4 + " штук бутылок");
+
+        System.out.println("Задача 5");
+
+        byte paintCans = 120;
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        int oneСlass = whitePaint + brownPaint;
+        int totalClasses = paintCans / oneСlass;
+        int totalWhitePaint = totalClasses * whitePaint;
+        int totalBrownPaint = totalClasses * brownPaint;
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
     }
 }
