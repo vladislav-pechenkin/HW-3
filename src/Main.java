@@ -97,5 +97,20 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, у него уйдет " + days2  + " дней.");
         System.out.println("Чтобы добиться результата похудения, спортсмену потребуется в среднем " + averageNumber + " день.");
 
+        System.out.println("Задача 8");
+
+        int masha = 67760;
+        int denis = 83690;
+        int christina = 76230;
+        int masha1 =  (masha / 100)*110;
+        int masha2 = masha1 - masha;
+        int denis1 = (denis / 100)*110;
+        int denis2 = denis1 - denis;
+        int christina1 = (christina / 100)*110;
+        int christina2 = christina1 - christina;
+        System.out.println("Маша теперь получает " + masha1 + " рублей. Годовой доход вырос на " + masha2 + " рублей.");
+        System.out.println("Денис теперь получает " + denis1 + " рублей. Годовой доход вырос на " + denis2 + " рублей.");
+        System.out.println("Кристина теперь получает " + christina1 + " рублей. Годовой доход вырос на " + christina2 + " рублей.");
+
     }
 }
